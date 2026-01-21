@@ -76,10 +76,10 @@
 
         default_layer {
             bindings = <
-&mt LCTRL Q       &kp W           &kp E    &kp R          &kp T                                                              &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S           &kp D    &lt 2 F        &kp G                                  &kp LANGUAGE_1              &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &mt LEFT_ALT X  &kp C    &kp V          &kp B        &kp TAB                   &kp LANGUAGE_2              &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN    &kp F16  &kp BACKSPACE  &lt 2 SPACE  &lt_to_layer_0 3 LANG2    &lt_to_layer_0 3 BACKSPACE  &lt 1 ENTER                             &lt 6 NUMBER_2
+&mt LCTRL Q       &kp W           &kp E         &kp R          &kp T                                                              &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S           &kp D         &lt 2 F        &kp G                                  &kp LANGUAGE_1              &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &mt LEFT_ALT X  &kp C         &kp V          &kp B        &kp TAB                   &kp LANGUAGE_2              &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN    &lt 4 K_MUTE  &kp BACKSPACE  &lt 2 SPACE  &lt_to_layer_0 3 LANG2    &lt_to_layer_0 3 BACKSPACE  &lt 1 ENTER                             &lt 6 NUMBER_2
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -109,10 +109,10 @@
 
         layer_3 {
             bindings = <
-&trans  &kp LEFT_GUI        &kp ESCAPE              &kp LC(TAB)              &kp TAB                                    &trans  &kp HOME        &kp UP_ARROW    &kp END          &kp PRINTSCREEN
-&trans  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp C_VOLUME_UP
-&trans  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &trans  &trans  &kp DELETE      &kp PAGE_UP     &kp PAGE_DOWN    &kp C_VOL_DN
-&trans  &trans              &trans                  &trans                   &trans                   &trans    &trans  &trans                                                   &kp K_MUTE
+&trans  &kp LEFT_GUI        &kp ESCAPE              &kp LC(TAB)              &kp TAB                                    &trans  &kp HOME        &kp UP_ARROW    &kp END          &kp C_VOL_UP
+&trans  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp C_VOL_DN
+&trans  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &trans  &trans  &kp DELETE      &kp PAGE_UP     &kp PAGE_DOWN    &kp K_MUTE
+&trans  &trans              &trans                  &trans                   &trans                   &trans    &trans  &trans                                                   &kp PRINTSCREEN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
